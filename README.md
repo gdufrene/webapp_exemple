@@ -1,4 +1,4 @@
 # Exemple webapp
 
-* [authent] est un exemple de formaulaire d'authentification.
+* [authent](authent) est un exemple de formaulaire d'authentification.
 
