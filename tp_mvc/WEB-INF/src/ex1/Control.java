@@ -30,7 +30,9 @@ public class Control extends HttpServlet {
 				return;
 			}
 			int id = Integer.parseInt(idParam);
+			
 			String element = dao.findById(id);
+			
 			req.setAttribute("element", element);
 			req.getRequestDispatcher("vignette.jsp").forward(req, resp);
 			return;
